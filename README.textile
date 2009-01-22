@@ -7,6 +7,10 @@ Magick Installer exists for two reasons:
 
 Download and run this simple script and watch your ImageMagick support go from 0 to 1 without MacPorts.
 
+h1. Verified Platforms
+
+* Mac OS X 10.5 Leopard (10.5.6)
+
 h1. Support
 
 This script WILL get stale. As mirrors die and versions increase, the download commands in this script may not work anymore. If this happens to you, please fork the script and fix it. Let's keep this working forever!

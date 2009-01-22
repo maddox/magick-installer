@@ -1,0 +1,13 @@
+h1. Magick Installer!
+
+Magick Installer exists for two reasons:
+
+# installing ImageMagick is hard
+# MacPorts is the devil, and shouldn't be installed just for installing ImageMagick
+
+Download and run this simple script and watch your ImageMagick support 0 to 1 with out MacPorts.
+
+h1. Support
+
+This script WILL get stale. As mirrors die and versions increase, the download commands in this script may not work anymore. If this happens to you, please fork the script and fix it. Let's keep this working forever!
+

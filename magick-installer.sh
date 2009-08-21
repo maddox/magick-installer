@@ -1,23 +1,23 @@
 #!/bin/sh
-curl -O http://download.savannah.gnu.org/releases/freetype/freetype-2.3.5.tar.gz
-tar xzvf freetype-2.3.5.tar.gz
-cd freetype-2.3.5
+curl -O http://nongnu.askapache.com/freetype/freetype-2.3.9.tar.gz
+tar xzvf freetype-2.3.9.tar.gz
+cd freetype-2.3.9
 ./configure --prefix=/usr/local
 make
 sudo make install
 cd ..
 
-curl -O http://superb-east.dl.sourceforge.net/sourceforge/libpng/libpng-1.2.23.tar.bz2
-tar jxvf libpng-1.2.23.tar.bz2
-cd libpng-1.2.23
+curl -O http://voxel.dl.sourceforge.net/project/libpng/00-libpng-stable/1.2.39/libpng-1.2.39.tar.gz
+tar xzvf libpng-1.2.39.tar.gz
+cd libpng-1.2.39
 ./configure --prefix=/usr/local
 make
 sudo make install
 cd ..
 
-curl -O http://www.ijg.org/files/jpegsrc.v6b.tar.gz
-tar xzvf jpegsrc.v6b.tar.gz
-cd jpeg-6b
+curl -O http://www.ijg.org/files/jpegsrc.v7.tar.gz
+tar xzvf jpegsrc.v7.tar.gz
+cd jpeg-7
 ln -s `which glibtool` ./libtool
 export MACOSX_DEPLOYMENT_TARGET=10.5
 ./configure --enable-shared --prefix=/usr/local
@@ -33,7 +33,7 @@ make
 sudo make install
 cd ..
 
-curl -O http://superb-east.dl.sourceforge.net/sourceforge/wvware/libwmf-0.2.8.4.tar.gz
+curl -O http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
 tar xzvf libwmf-0.2.8.4.tar.gz
 cd libwmf-0.2.8.4
 make clean
@@ -51,15 +51,15 @@ make
 sudo make install
 cd ..
 
-curl -O http://superb-east.dl.sourceforge.net/sourceforge/ghostscript/ghostscript-8.61.tar.gz
-tar zxvf ghostscript-8.61.tar.gz
-cd ghostscript-8.61/
+curl -O http://voxel.dl.sourceforge.net/project/ghostscript/GPL%20Ghostscript/8.70/ghostscript-8.70.tar.gz
+tar zxvf ghostscript-8.70.tar.gz
+cd ghostscript-8.70/
 ./configure  --prefix=/usr/local
 make
 sudo make install
 cd ..
 
-curl -O http://mirror.cs.wisc.edu/pub/mirrors/ghost/GPL/current/ghostscript-fonts-std-8.11.tar.gz
+curl -O http://voxel.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
 tar zxvf ghostscript-fonts-std-8.11.tar.gz
 sudo mv fonts /usr/local/share/ghostscript
 

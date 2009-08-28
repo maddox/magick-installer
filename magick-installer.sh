@@ -7,7 +7,7 @@ make
 sudo make install
 cd ..
 
-curl -O http://voxel.dl.sourceforge.net/project/libpng/00-libpng-stable/1.2.39/libpng-1.2.39.tar.gz
+curl -O http://surfnet.dl.sourceforge.net/project/libpng/00-libpng-stable/1.2.39/libpng-1.2.39.tar.gz
 tar xzvf libpng-1.2.39.tar.gz
 cd libpng-1.2.39
 ./configure --prefix=/usr/local

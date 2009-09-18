@@ -63,9 +63,9 @@ curl -O http://voxel.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base
 tar zxvf ghostscript-fonts-std-8.11.tar.gz
 sudo mv fonts /usr/local/share/ghostscript
 
-curl -O http://image_magick.veidrodis.com/image_magick/ImageMagick-6.4.8-7.tar.gz
-tar xzvf ImageMagick-6.4.8-7.tar.gz
-cd ImageMagick-6.4.8-7
+curl -O http://image_magick.veidrodis.com/image_magick/ImageMagick-6.5.6-1.tar.gz
+tar xzvf ImageMagick-6.5.6-1.tar.gz
+cd ImageMagick-6.5.6-1
 export CPPFLAGS=-I/usr/local/include
 export LDFLAGS=-L/usr/local/lib
 ./configure --prefix=/usr/local --disable-static --with-modules --without-perl --without-magick-plus-plus --with-quantum-depth=8 --with-gs-font-dir=/usr/local/share/ghostscript/fonts

@@ -1,4 +1,6 @@
 #!/bin/sh
+set -e 
+
 curl -O http://nongnu.askapache.com/freetype/freetype-2.3.9.tar.gz
 tar xzvf freetype-2.3.9.tar.gz
 cd freetype-2.3.9
@@ -36,7 +38,6 @@ cd ..
 curl -O http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
 tar xzvf libwmf-0.2.8.4.tar.gz
 cd libwmf-0.2.8.4
-make clean
 ./configure
 make
 sudo make install
@@ -45,7 +46,6 @@ cd ..
 curl -O http://www.littlecms.com/lcms-1.17.tar.gz
 tar xzvf lcms-1.17.tar.gz
 cd lcms-1.17
-make clean
 ./configure
 make
 sudo make install

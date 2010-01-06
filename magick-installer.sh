@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e 
 
-curl -O http://nongnu.askapache.com/freetype/freetype-2.3.9.tar.gz
+curl -O http://mirror.its.uidaho.edu/pub/savannah/freetype/freetype-2.3.9.tar.gz
 tar xzvf freetype-2.3.9.tar.gz
 cd freetype-2.3.9
 ./configure --prefix=/usr/local

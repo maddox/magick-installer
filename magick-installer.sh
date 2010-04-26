@@ -14,7 +14,7 @@ function download() {
 download http://nongnu.askapache.com/freetype/freetype-2.3.9.tar.gz
 download http://surfnet.dl.sourceforge.net/project/libpng/libpng-stable/1.2.39/libpng-1.2.39.tar.gz
 download http://www.ijg.org/files/jpegsrc.v7.tar.gz
-download ftp://ftp.remotesensing.org/libtiff/tiff-3.8.2.tar.gz
+download http://www.sfr-fresh.com/unix/misc/tiff-3.9.2.tar.gz
 download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
 download http://www.littlecms.com/lcms-1.17.tar.gz
 download http://voxel.dl.sourceforge.net/project/ghostscript/GPL%20Ghostscript/8.70/ghostscript-8.70.tar.gz
@@ -46,8 +46,8 @@ sudo make install
 cd ..
 
 
-tar xzvf tiff-3.8.2.tar.gz
-cd tiff-3.8.2
+tar xzvf tiff-3.9.2.tar.gz
+cd tiff-3.9.2
 ./configure --prefix=/usr/local
 make
 sudo make install

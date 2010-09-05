@@ -82,8 +82,8 @@ tar zxvf ghostscript-fonts-std-8.11.tar.gz
 sudo mv fonts /usr/local/share/ghostscript
 
 
-tar xzvf ImageMagick-6.6.1-5.tar.gz
-cd ImageMagick-6.6.1-5
+tar xzvf ImageMagick-6.6.4-0.tar.gz
+cd ImageMagick-6.6.4-0
 export CPPFLAGS=-I/usr/local/include
 export LDFLAGS=-L/usr/local/lib
 ./configure --prefix=/usr/local --disable-static --with-modules --without-perl --without-magick-plus-plus --with-quantum-depth=8 --with-gs-font-dir=/usr/local/share/ghostscript/fonts

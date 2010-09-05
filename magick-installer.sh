@@ -19,7 +19,7 @@ download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.
 download http://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
 download http://voxel.dl.sourceforge.net/project/ghostscript/GPL%20Ghostscript/8.70/ghostscript-8.70.tar.gz
 download http://voxel.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
-download http://image_magick.veidrodis.com/image_magick/ImageMagick-6.6.1-5.tar.gz
+download http://image_magick.veidrodis.com/image_magick/ImageMagick-6.6.4-0.tar.gz
 
 tar xzvf freetype-2.3.9.tar.gz
 cd freetype-2.3.9

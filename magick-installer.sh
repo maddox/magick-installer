@@ -94,7 +94,7 @@ tar xzvf ImageMagick-6.6.4-0.tar.gz
 cd ImageMagick-6.6.4-0
 export CPPFLAGS=-I/usr/local/include
 export LDFLAGS=-L/usr/local/lib
-./configure --prefix=/usr/local --disable-static --with-modules --without-perl --without-magick-plus-plus --with-quantum-depth=8 --with-gs-font-dir=/usr/local/share/ghostscript/fonts
+./configure --prefix=/usr/local --disable-static --with-modules --without-perl --without-magick-plus-plus --with-quantum-depth=8 --with-gs-font-dir=/usr/local/share/ghostscript/fonts --disable-openmp
 make clean
 make
 sudo make install

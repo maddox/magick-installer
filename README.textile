@@ -14,6 +14,15 @@ h2. Verified Platforms
 * Mac OS X 10.5 Leopard (10.5.6)
 * Mac OS X 10.6 Snow Leopard (10.6)
 
+h2. Updates
+
+The script has been updated with the latest packages, fixing some broken links in the process
+
+# Freetype 2.4.3
+# JPEG Source v8b
+# Ghostscript 9.00
+# ImageMagick 6.6.5-5
+
 h2. Support
 
 This script WILL get stale. As mirrors die and versions increase, the download commands in this script may not work anymore. If this happens to you, please fork the script and fix it. Let's keep this working forever!

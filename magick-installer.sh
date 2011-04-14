@@ -12,9 +12,9 @@ function download() {
 }
 
 download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
-download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.4.5.tar.gz
+download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.2.tar.gz
 download http://www.ijg.org/files/jpegsrc.v8b.tar.gz
-download http://www.sfr-fresh.com/unix/misc/tiff-3.9.4.tar.gz
+download http://download.osgeo.org/libtiff/tiff-3.9.4.tar.gz
 download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
 download http://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
 download http://heanet.dl.sourceforge.net/project/ghostscript/GPL%20Ghostscript/9.00/ghostscript-9.00.tar.gz
@@ -29,8 +29,8 @@ make
 sudo make install
 cd ..
 
-tar xzvf libpng-1.4.5.tar.gz
-cd libpng-1.4.5
+tar xzvf libpng-1.5.2.tar.gz
+cd libpng-1.5.2
 ./configure --prefix=/usr/local
 make clean
 make

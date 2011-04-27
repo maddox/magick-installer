@@ -11,6 +11,7 @@ function download() {
   fi
 }
 
+download http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
 download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
 download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.2.tar.gz
 download http://www.ijg.org/files/jpegsrc.v8b.tar.gz
@@ -20,6 +21,15 @@ download http://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.g
 download http://heanet.dl.sourceforge.net/project/ghostscript/GPL%20Ghostscript/9.00/ghostscript-9.00.tar.gz
 download http://voxel.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
 download ftp://ftp.sunet.se/pub/multimedia/graphics/ImageMagick/ImageMagick-6.6.7-0.tar.gz
+
+
+tar xzvf libiconv-1.13.1.tar.gz
+cd tar xzvf libiconv-1.13.1.tar.gz
+cd libiconv-1.13.1
+./configure --prefix=/usr/local
+make
+sudo make install
+cd ..
 
 tar xzvf freetype-2.4.3.tar.gz
 cd freetype-2.4.3

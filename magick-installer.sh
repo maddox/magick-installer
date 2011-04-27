@@ -24,7 +24,6 @@ download ftp://ftp.sunet.se/pub/multimedia/graphics/ImageMagick/ImageMagick-6.6.
 
 
 tar xzvf libiconv-1.13.1.tar.gz
-cd tar xzvf libiconv-1.13.1.tar.gz
 cd libiconv-1.13.1
 ./configure --prefix=/usr/local
 make

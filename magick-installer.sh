@@ -50,7 +50,7 @@ cd ..
 
 tar xzvf jpegsrc.v8b.tar.gz
 cd jpeg-8b
-ln -s `which glibtool` ./libtool
+ln -s -f `which glibtool` ./libtool 
 export MACOSX_DEPLOYMENT_TARGET=10.6
 ./configure --enable-shared --prefix=/usr/local
 make clean

@@ -25,10 +25,11 @@ download ftp://ftp.sunet.se/pub/multimedia/graphics/ImageMagick/ImageMagick-6.6.
 
 tar xzvf libiconv-1.13.1.tar.gz
 cd libiconv-1.13.1
+cd libcharset
 ./configure --prefix=/usr/local
 make
 sudo make install
-cd ..
+cd ../..
 
 tar xzvf freetype-2.4.3.tar.gz
 cd freetype-2.4.3
@@ -50,7 +51,7 @@ cd ..
 tar xzvf jpegsrc.v8b.tar.gz
 cd jpeg-8b
 ln -s -f `which glibtool` ./libtool 
-export MACOSX_DEPLOYMENT_TARGET=10.6
+export MACOSX_DEPLOYMENT_TARGET=10.7
 ./configure --enable-shared --prefix=/usr/local
 make clean
 make

@@ -13,7 +13,7 @@ function download() {
 
 download http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
 download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
-download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.4.tar.gz
+download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.5.tar.gz
 download http://www.imagemagick.org/download/delegates/jpegsrc.v8b.tar.gz
 download http://download.osgeo.org/libtiff/tiff-3.9.4.tar.gz
 download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
@@ -39,8 +39,8 @@ make
 sudo make install
 cd ..
 
-tar xzvf libpng-1.5.4.tar.gz
-cd libpng-1.5.4
+tar xzvf libpng-1.5.5.tar.gz
+cd libpng-1.5.5
 ./configure --prefix=/usr/local
 make clean
 make
@@ -50,7 +50,7 @@ cd ..
 
 tar xzvf jpegsrc.v8b.tar.gz
 cd jpeg-8b
-ln -s -f `which glibtool` ./libtool 
+ln -s -f `which glibtool` ./libtool
 export MACOSX_DEPLOYMENT_TARGET=10.7
 ./configure --enable-shared --prefix=/usr/local
 make clean

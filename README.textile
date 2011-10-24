@@ -7,21 +7,15 @@ Magick Installer exists for two reasons:
 
 h2. How?
 
+    curl https://raw.github.com/maddox/magick-installer/master/magick-installer.sh | sh
+
+or
+
 Download and run this simple script and watch your ImageMagick support go from 0 to 1 without MacPorts.
 
 h2. Verified Platforms
 
-* Mac OS X 10.5 Leopard (10.5.6)
-* Mac OS X 10.6 Snow Leopard (10.6)
-
-h2. Updates
-
-The script has been updated with the latest packages, fixing some broken links in the process
-
-# Freetype 2.4.3
-# JPEG Source v8b
-# Ghostscript 9.00
-# ImageMagick 6.6.5-5
+* Mac OS X 10.7
 
 h2. Support
 

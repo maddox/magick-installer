@@ -11,6 +11,9 @@ function download() {
   fi
 }
 
+mkdir magick-installer
+cd magick-installer
+
 download http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
 download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
 download ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.5.5.tar.gz
@@ -109,3 +112,8 @@ make clean
 make
 sudo make install
 cd ..
+
+cd ..
+rm -Rf magick-installer
+
+echo "ImageMagick successfully installed!"

@@ -15,6 +15,7 @@ Download and run this simple script and watch your ImageMagick support go from 0
 
 ## Verified Platforms
 
+* Mac OS X 10.8
 * Mac OS X 10.7
 * Mac OS X 10.6
 

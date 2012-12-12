@@ -15,7 +15,7 @@ mkdir magick-installer
 cd magick-installer
 
 download http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
-download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
+download http://download.savannah.gnu.org/releases/freetype/freetype-2.4.10.tar.gz
 download http://sourceforge.net/projects/libpng/files/libpng15/older-releases/1.5.5/libpng-1.5.5.tar.gz
 download http://www.imagemagick.org/download/delegates/jpegsrc.v8b.tar.gz
 download http://download.osgeo.org/libtiff/tiff-3.9.4.tar.gz
@@ -34,8 +34,8 @@ make
 sudo make install
 cd ../..
 
-tar xzvf freetype-2.4.3.tar.gz
-cd freetype-2.4.3
+tar xzvf freetype-2.4.10.tar.gz
+cd freetype-2.4.10
 ./configure --prefix=/usr/local
 make clean
 make

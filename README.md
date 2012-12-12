@@ -11,12 +11,13 @@ Magick Installer exists for two reasons:
 
 or
 
-Download and run this simple script and watch your ImageMagick support go from 0 to 1 without MacPorts.
+Download and run this simple script from your home directory (~) and watch your ImageMagick support go from 0 to 1 without MacPorts.
 
 ## Verified Platforms
 
 * Mac OS X 10.7
 * Mac OS X 10.6
+* Mac OS X 10.8.2
 
 ## Support
 

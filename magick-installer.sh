@@ -19,10 +19,10 @@ download http://nongnu.askapache.com/freetype/freetype-2.4.3.tar.gz
 download http://sourceforge.net/projects/libpng/files/libpng15/older-releases/1.5.5/libpng-1.5.5.tar.gz
 download http://www.imagemagick.org/download/delegates/jpegsrc.v8b.tar.gz
 download http://download.osgeo.org/libtiff/tiff-3.9.4.tar.gz
-download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
+download http://pkgs.fedoraproject.org/repo/pkgs/libwmf/libwmf-0.2.8.4.tar.gz/d1177739bf1ceb07f57421f0cee191e0/libwmf-0.2.8.4.tar.gz
 download http://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
 download http://sourceforge.net/projects/ghostscript/files/GPL%20Ghostscript/9.04/ghostscript-9.04.tar.gz
-download http://voxel.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
+download https://ghostscript.googlecode.com/files/ghostscript-fonts-std-8.11.tar.gz
 download ftp://ftp.sunet.se/pub/multimedia/graphics/ImageMagick/ImageMagick-6.6.7-0.tar.gz
 
 

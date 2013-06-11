@@ -19,7 +19,7 @@ download http://nongnu.askapache.com/freetype/freetype-2.4.9.tar.gz
 download http://downloads.sourceforge.net/project/libpng/libpng15/older-releases/1.5.11/libpng-1.5.11.tar.gz
 download http://www.imagemagick.org/download/delegates/jpegsrc.v8b.tar.gz
 download http://download.osgeo.org/libtiff/tiff-4.0.2.tar.gz
-download http://voxel.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
+download http://hivelocity.dl.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz
 download http://downloads.sourceforge.net/project/lcms/lcms/1.19/lcms-1.19.tar.gz
 download http://sourceforge.net/projects/ghostscript/files/GPL%20Ghostscript/9.06/ghostscript-9.06.tar.gz
 download http://hivelocity.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz
